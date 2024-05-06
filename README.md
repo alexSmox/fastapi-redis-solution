@@ -1,1 +1,2 @@
-# fastapi-redis-solution
+- приложение поднимается командой: docker compose up
+- в .env указываютя переменные окружения по примеру .env.example

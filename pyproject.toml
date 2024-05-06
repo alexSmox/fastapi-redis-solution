@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "task-proj"
+version = "0.1.0"
+description = ""
+authors = ["alexey <ikea__@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "^1.0.0"
+uvicorn = {extras = ["standard"], version = "^0.23.2"}
+pydantic = "^2.5.3"
+fastapi = "^0.108.0"
+pydantic-settings = "^2.1.0"
+python-multipart = "^0.0.6"
+redis = "^5.0.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
